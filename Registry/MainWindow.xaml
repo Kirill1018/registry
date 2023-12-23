@@ -1,0 +1,17 @@
+﻿<Window x:Class="Registry.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Registry"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <TextBlock Name="block1" Height="70" FontSize="30">высота</TextBlock>
+        <TextBox Name="box" Height="70" FontSize="30"></TextBox>
+        <TextBlock Name="block2" Height="70" FontSize="30">ширина</TextBlock>
+        <TextBox Name="box_" Height="70" FontSize="30"></TextBox>
+        <TextBlock Name="block3" Height="70" FontSize="30"></TextBlock>
+        <Button Name="button" Height="70" FontSize="30" Click="button_Click">сохранить</Button>
+    </StackPanel>
+</Window>
